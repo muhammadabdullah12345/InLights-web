@@ -27,16 +27,16 @@ function BgVideoPart() {
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
       {/* Navbar */}
-      <div className="relative z-10">
+      <div className="relative z-10 ">
         {/* Hamburger Menu for smaller screens */}
-        <div className="lg:hidden flex items-center justify-between px-5 py-3 bg-opacity-60 bg-black">
+        <div className="lg:hidden flex items-center justify-between px-5 py-3 bg-opacity-60 bg-black cursor-pointer">
           <img
             src="/images/Group.png"
             className="h-[12px] w-auto sm:h-[18px]"
           />
           <button onClick={toggleSidebar}>
             {isSidebarOpen ? (
-              <AiOutlineClose className="text-white" size={30} />
+              <AiOutlineClose className="text-white" size={20} />
             ) : (
               <HiMenu className="text-white" size={20} />
             )}
@@ -50,9 +50,9 @@ function BgVideoPart() {
           } lg:hidden`}
         >
           <div className="p-4">
-            <button className="text-white" onClick={toggleSidebar}>
+            {/* <button className="text-white" onClick={toggleSidebar}>
               <AiOutlineClose size={30} />
-            </button>
+            </button> */}
             <nav className="mt-6">
               <ul className="flex flex-col gap-4">
                 <li>Home</li>
@@ -87,7 +87,7 @@ function BgVideoPart() {
         </div>
 
         {/* Full navbar for larger screens */}
-        <div className="hidden lg:flex items-center justify-between px-10 py-3 text-white">
+        <div className="hidden lg:flex items-center justify-between px-10 py-3 text-white cursor-pointer">
           <div>
             <img src="/images/Group.png" className="h-[18px] w-auto" />
           </div>

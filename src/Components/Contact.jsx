@@ -2,7 +2,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Contact() {
   return (
-    <div className="px-[24px] py-[32px] lg:p-[48px] bg-[#13171C] md:rounded-[40px] rounded-[24px] flex items-center justify-center h-auto lg:h-[585px] mx-5 lg:mx-[70px] md:my-[80px] my-[40px]">
+    <div className="px-[24px] py-[32px] lg:p-[48px] bg-[#13171C] md:rounded-[40px] rounded-[24px] flex items-center justify-between h-auto lg:h-[585px] mx-5 lg:mx-[70px] md:my-[80px] my-[40px]">
       <div className="w-full lg:w-[533px] ">
         <p className="md:text-[24px] text-[16px] lg:text-[40px] text-white">
           Ready to Boost Your Efficiency?
